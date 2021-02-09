@@ -10,8 +10,11 @@ const postSchema = mongoose.Schema({
         type: Number,
         default: 0
     },
-    creationDate: Date,
-    default: new Date()
+    creationDate: {
+        type: Date,
+        default: new Date()
+    }
 })
 
-postContent = mongoose.model('PostContent', postSchema)
+const postContent = mongoose.model('PostContent', postSchema)
+export default postContent

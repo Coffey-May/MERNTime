@@ -1,6 +1,6 @@
 import postContent from '../Models/postModel.js';
 
-export const getPosts = (req, res) => {
+export const getPosts = async (req, res) => {
     try {
         const postMessages = await postContent.find();
         res.status(200).json(postMessages)
