@@ -1,5 +1,7 @@
 import mongoose from 'mongoose';
 
+//MODEL COMPONENT
+
 const postSchema = mongoose.Schema({
     title: String,
     postBody: String,
