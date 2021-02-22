@@ -8,7 +8,7 @@ import decode from 'jwt-decode';
 import * as actionType from '../../Constants/ActionTypes';
 import useStyles from './styles';
 
-const Navbar = () => {
+const Nav = () => {
     const [user, setUser] = useState(JSON.parse(localStorage.getItem('profile')));
     const dispatch = useDispatch();
     const location = useLocation();
@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className={classes.brandContainer}>
                 <Typography component={Link} to="/" className={classes.heading} variant="h2" align="center">Memories</Typography>
                 <img className={classes.image}
-                    // src={memories}
+                    // src={memories} 
                     alt="icon" height="60" />
             </div>
             <Toolbar className={classes.toolbar}>
@@ -54,9 +54,8 @@ const Navbar = () => {
                         <Button component={Link} to="/auth" variant="contained" color="primary">Sign In</Button>
                     )}
             </Toolbar>
-            <h1>hey</h1>
         </AppBar>
     );
 };
 
-export default Navbar;
+export default Nav;
