@@ -1,14 +1,23 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles({
+    root: {
+        "& .MuiPaper-Root": {
+            backgroundColor: 'rgba(100, 100, 100, 0.3) !important',
+
+        }
+
+    },
     media: {
         height: 0,
         paddingTop: '56.25%',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        backgroundColor: 'rgba(0, 0, 0, 0.3)',
         backgroundBlendMode: 'darken',
+
     },
     border: {
         border: 'solid',
+
     },
     fullHeightCard: {
         height: '100%',
@@ -17,12 +26,16 @@ export default makeStyles({
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
+        padding: '18px',
         borderRadius: '15px',
         height: '100%',
         position: 'relative',
-
-
+        boxShadow: '-10px -10px 30px rgba(255, 255, 255),15px 15px 15px rgba(0, 0, 0, 0.15),-10px -10px 30px rgba(200, 200, 200,0.5) inset,15px 15px 15px rgba(255, 255, 255, 0.3)inset'
     },
+    box: {
+        borderRadius: '15px'
+    },
+
     overlay: {
         position: 'absolute',
         top: '20px',
@@ -41,11 +54,13 @@ export default makeStyles({
     details: {
         display: 'flex',
         justifyContent: 'space-between',
-        margin: '20px',
+        margin: '0',
+        backgroundColor: 'rbga(155,155,155)',
+
     },
     title: {
         padding: '0 16px',
-        boxShadow: '-10px -10px,15px rbga(255,255,255,0.5)',
+
     },
     cardActions: {
         padding: '0 16px 8px 16px',
