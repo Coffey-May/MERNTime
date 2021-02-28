@@ -5,21 +5,17 @@ import beach from '../../images/beach1.jpeg';
 
 export default makeStyles((theme) => ({
     appBar: {
-
-
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-
-
-        backgroundImage: `url(${beach})`,
+        backgroundColor: 'black',
         backgroundSize: 'cover',
-
     },
     heading: {
-        color: 'rgba(0,183,255, 1)',
+        color: 'white',
         textDecoration: 'none',
+        color: 'white,'
     },
     image: {
         marginLeft: '15px',
@@ -37,6 +33,8 @@ export default makeStyles((theme) => ({
     userName: {
         display: 'flex',
         alignItems: 'center',
+        color: 'white'
+
     },
 
     purple: {

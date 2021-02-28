@@ -19,9 +19,7 @@ export default makeStyles({
         border: 'solid',
 
     },
-    fullHeightCard: {
-        height: '100%',
-    },
+
     card: {
         display: 'flex',
         flexDirection: 'column',
@@ -30,7 +28,7 @@ export default makeStyles({
         borderRadius: '15px',
         height: '100%',
         position: 'relative',
-        boxShadow: '-10px -10px 30px rgba(255, 255, 255),15px 15px 15px rgba(0, 0, 0, 0.15),-10px -10px 30px rgba(200, 200, 200,0.5) inset,15px 15px 15px rgba(255, 255, 255, 0.3)inset'
+        boxShadow: '-10px -10px 30px rgba(255, 255, 255),15px 15px 15px rgba(0, 0, 0, 0.60),-10px -10px 30px rgba(200, 200, 200,0.6) inset,15px 15px 15px rgba(255, 255, 255, 0.3)inset'
     },
     box: {
         borderRadius: '15px'
