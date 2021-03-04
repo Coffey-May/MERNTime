@@ -4,12 +4,12 @@ import { Avatar, Button, Paper, Grid, Typography, Container } from '@material-ui
 import { useHistory } from 'react-router-dom';
 import { GoogleLogin } from 'react-google-login';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-
 import Icon from './Icon';
 import { signin, signup } from '../../Actions/Auth';
 import { AUTH } from '../../Constants/ActionTypes';
 import useStyles from './Styles';
 import Input from './Input';
+
 
 const initialState = { firstName: '', lastName: '', email: '', password: '', confirmPassword: '' };
 

@@ -4,23 +4,19 @@ export default makeStyles({
     root: {
         "& .MuiPaper-Root": {
             backgroundColor: 'rgba(100, 100, 100, 0.3) !important',
-
         }
-
     },
     media: {
         height: 0,
         paddingTop: '56.25%',
         backgroundColor: 'rgba(0, 0, 0, 0.3)',
         backgroundBlendMode: 'darken',
-
     },
     border: {
         border: 'solid',
-
     },
-
     card: {
+        opacity: '0.9',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
@@ -33,7 +29,6 @@ export default makeStyles({
     box: {
         borderRadius: '15px'
     },
-
     overlay: {
         position: 'absolute',
         top: '20px',
@@ -65,6 +60,4 @@ export default makeStyles({
         display: 'flex',
         justifyContent: 'space-between',
     },
-
-
 });

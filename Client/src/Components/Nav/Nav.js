@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { AppBar, Typography, Toolbar, Avatar, Button } from '@material-ui/core';
+import { AppBar, Typography, Toolbar, Avatar, Button, Collapse } from '@material-ui/core';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import decode from 'jwt-decode';
@@ -38,7 +38,9 @@ const Nav = () => {
     return (
         <AppBar className={classes.appBar} position="static" color="inherit">
             <div>
-                <Typography component={Link} to="/" className={classes.heading} variant="h2" align="center">BUBBLESHARE <Typography >for you and your bubble</Typography></Typography>
+                <Typography component={Link} to="/" className={classes.heading} variant="h4" align="center">TravelShare</Typography>
+                <br />
+                <Typography style={{ paddingLeft: '2em', fontSize: '1.5vw' }} >A place to share travel experiences, events, and interests.</Typography>
             </div>
             <Toolbar className={classes.toolbar}>
                 {user?.result ? (

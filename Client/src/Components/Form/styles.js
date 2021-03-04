@@ -5,10 +5,12 @@ export default makeStyles((theme) => ({
     root: {
         '& .MuiTextField-root': {
             margin: theme.spacing(1),
+
         },
     },
     paper: {
         padding: theme.spacing(2),
+        marginTop: '2vh'
     },
     form: {
         display: 'flex',

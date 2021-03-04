@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 import { deepPurple } from '@material-ui/core/colors';
 
-import beach from '../../images/beach1.jpeg';
+
 
 export default makeStyles((theme) => ({
     appBar: {
@@ -11,11 +11,13 @@ export default makeStyles((theme) => ({
         alignItems: 'center',
         backgroundColor: 'black',
         backgroundSize: 'cover',
+        color: 'turquoise'
     },
     heading: {
-        color: 'white',
+        padding: '2vw',
         textDecoration: 'none',
-        color: 'white,'
+        color: 'turquoise',
+        fontSize: '4vw'
     },
     image: {
         marginLeft: '15px',
@@ -23,18 +25,20 @@ export default makeStyles((theme) => ({
     toolbar: {
         display: 'flex',
         justifyContent: 'flex-end',
-        width: '400px',
+        width: '250px',
     },
     profile: {
         display: 'flex',
         justifyContent: 'space-between',
-        width: '400px',
+        width: '300px',
     },
     userName: {
         display: 'flex',
         alignItems: 'center',
         color: 'white'
-
+    },
+    a: {
+        color: 'white'
     },
 
     purple: {
