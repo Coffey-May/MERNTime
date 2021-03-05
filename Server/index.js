@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import postRoutes from './Routes/postsRoutes.js';
-import userRouter from "./routes/user.js";
+import userRouter from "./Routes/user.js";
 
 const app = express();
 dotenv.config();
