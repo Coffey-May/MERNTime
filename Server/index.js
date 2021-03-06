@@ -32,3 +32,4 @@ mongoose.set('useFindAndModify', false);
 
 
 // CONNECTION_URL = mongodb+srv://coffeytime:coffeytime123@cluster0.cdxer.mongodb.net/<dbname>?retryWrites=true&w=majority
+// mongoose.connect('mongodb://admin:admin123@127.0.0.1:27017/food?authSource=admin');
