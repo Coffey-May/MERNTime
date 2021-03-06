@@ -35,7 +35,7 @@ const Home = () => {
                         <Form currentId={currentId} setCurrentId={setCurrentId} />
                     </Container>
                 </Grid>
-                <Grid item xs={12} sm={8}>
+                <Grid item xs={12} sm={9}>
                     <Container>
                         <Typography style={text} align="center" variant="h3">POSTS</Typography>
                         <PostList setCurrentId={setCurrentId} />
