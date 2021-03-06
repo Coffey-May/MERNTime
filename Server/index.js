@@ -15,9 +15,9 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 app.use("/user", userRouter);
-
+const CONNECTION_url = 'mongodb://root:ygGrvt7ztf@coffey-may-coffey-may-mongo-production/admin'
 // const CONNECTION_url = process.env.CONNECTION_URL
-const CONNECTION_url = 'mongodb://coffeytime:coffeytime12345@coffey-may-coffey-may-mongo-production/admin'
+// const CONNECTION_url = 'mongodb://coffeytime:coffeytime12345@coffey-may-coffey-may-mongo-production/admin'
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_url, { useNewUrlParser: true, useUnifiedTopology: true })
