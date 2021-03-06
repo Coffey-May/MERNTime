@@ -27,4 +27,4 @@ mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnified
 mongoose.set('useFindAndModify', false);
 
 
-
+// CONNECTION_URL = mongodb+srv://coffeytime:coffeytime123@cluster0.cdxer.mongodb.net/<dbname>?retryWrites=true&w=majority
